@@ -18,6 +18,11 @@ body {
    color: red;
 }
 
+.disabled {
+   opacity: 0.5;
+   pointer-events: none;
+}
+
 .faded {
    animation-name: faded;
    animation-duration: 1.5s;
